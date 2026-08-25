@@ -36,18 +36,18 @@ Blockchain transaction ledgers are inherently interconnected graphs of wallets, 
 ## 📊 Graph Data Model
 
 ```mermaid
-graph LR
-    W1[("Wallet (Node)<br/>address, balance, riskScore")] -->|[:TRANSFERRED { amount, sig, time }]| W2[("Wallet (Node)")]
-    W2 -->|[:TRANSFERRED]| W3[("Wallet (Node)")]
-    W3 -->|[:TRANSFERRED]| W1
+graph TD
+    W1["Wallet (Node)<br/>address, balance, riskScore"] -->|":TRANSFERRED (amount, sig)"| W2["Wallet (Node)"]
+    W2 -->|":TRANSFERRED"| W3["Wallet (Node)"]
+    W3 -->|":TRANSFERRED"| W1
     
-    Funder[("Mastermind Wallet<br/>role: 'Funder'")] -->|[:FUNDED { amount }]| Sybil1[("Sybil Bot 01")]
-    Funder -->|[:FUNDED { amount }]| Sybil2[("Sybil Bot 02")]
+    Funder["Mastermind Wallet<br/>role: 'Funder'"] -->|":FUNDED (amount)"| Sybil1["Sybil Bot 01"]
+    Funder -->|":FUNDED (amount)"| Sybil2["Sybil Bot 02"]
     
-    Sybil1 -->|[:SWAPPED { inAmt, outAmt, dex }]| Token[("Token (Node)<br/>mint, symbol: 'MOON'")]
-    Sybil2 -->|[:SWAPPED]| Token
+    Sybil1 -->|":SWAPPED (dex, inAmt, outAmt)"| Token["Token (Node)<br/>mint, symbol: 'MOON'"]
+    Sybil2 -->|":SWAPPED"| Token
     
-    Hacker[("Exploit Wallet")] -->|[:TRANSFERRED*4..6]| CEX[("Exchange (Node)<br/>label: 'Binance CEX'")]
+    Hacker["Exploit Origin Wallet"] -->|":TRANSFERRED (peeling hops 1..6)"| CEX["Exchange (Node)<br/>label: 'Binance CEX'"]
 ```
 
 ### Nodes
