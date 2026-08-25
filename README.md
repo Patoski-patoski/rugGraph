@@ -1,8 +1,16 @@
 # 🛡️ RugGraph — On-Chain Wash-Trading & Sybil Graph Intelligence
 
-RugGraph is a full-stack graph intelligence platform built to detect on-chain **cyclic wash-trading rings**, **sybil token-farming clusters**, and **money-laundering peeling chains**.
+> **Full-Stack Graph Intelligence Platform for detecting Wash-Trading Rings, Sybil Clusters, and Peeling Chains using CognoDB, NestJS, and React.**
 
-Backed by **CognoDB** (managed openCypher graph database via the official `neo4j-driver`), **NestJS + Bun** on the backend, and **React + Vite + Tailwind CSS + `react-force-graph-2d` + Google Material Symbols** on the frontend.
+---
+
+### 🌐 Live Deployment & Links
+
+* **Live Interactive Frontend:** [https://rug-graph.vercel.app](https://rug-graph.vercel.app)
+* **Live Backend API (Render):** [https://ruggraph.onrender.com](https://ruggraph.onrender.com)
+* **Backend Health Check:** [https://ruggraph.onrender.com/health](https://ruggraph.onrender.com/health)
+* **GitHub Repository:** [https://github.com/Patoski-patoski/rugGraph](https://github.com/Patoski-patoski/rugGraph)
+* **Video Walkthrough:** *(Add your 1–2 min Loom / recording link here)*
 
 ---
 
