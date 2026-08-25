@@ -1,0 +1,17 @@
+{
+  "name": "ruggraph",
+  "version": "1.0.0",
+  "description": "RugGraph — Web3 Wash-Trading & Sybil Graph Intelligence Platform",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && bun run start:dev\" \"cd frontend && bun run dev\"",
+    "start:backend": "cd backend && bun run start:dev",
+    "start:frontend": "cd frontend && bun run dev",
+    "build": "cd backend && bun run build && cd ../frontend && bun run build",
+    "seed": "cd backend && bun run seed",
+    "test": "cd backend && bun test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

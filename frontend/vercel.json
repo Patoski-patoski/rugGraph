@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://ruggraph-backend.onrender.com/api/:path*"
+    }
+  ]
+}

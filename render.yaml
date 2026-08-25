@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: ruggraph-backend
+    runtime: image
+    image:
+      url: # Set after first deploy — Render will build from Dockerfile
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+      - key: COGNODB_URI
+        sync: false # Set manually in Render dashboard
+      - key: COGNODB_USER
+        value: cognodb
+      - key: COGNODB_PASSWORD
+        sync: false # Set manually in Render dashboard
+      - key: CORS_ORIGIN
+        sync: false # Set to your Vercel frontend URL after deploy
+    healthCheckPath: /health
+    plan: free
+    autoDeploy: true
