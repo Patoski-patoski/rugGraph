@@ -1,16 +1,22 @@
-# 🛡️ RugGraph — On-Chain Wash-Trading & Sybil Graph Intelligence
+# RugGraph — On-Chain Wash-Trading & Sybil Graph Intelligence
 
 > **Full-Stack Graph Intelligence Platform for detecting Wash-Trading Rings, Sybil Clusters, and Peeling Chains using CognoDB, NestJS, and React.**
 
 ---
 
-### 🌐 Live Deployment & Links
+## Live Deployment & Links
 
 * **Live Interactive Frontend:** [https://rug-graph.vercel.app](https://rug-graph.vercel.app)
 * **Live Backend API (Render):** [https://ruggraph.onrender.com](https://ruggraph.onrender.com)
 * **Backend Health Check:** [https://ruggraph.onrender.com/health](https://ruggraph.onrender.com/health)
 * **GitHub Repository:** [https://github.com/Patoski-patoski/rugGraph](https://github.com/Patoski-patoski/rugGraph)
 * **Video Walkthrough:** *(Add your 1–2 min Loom / recording link here)*
+
+---
+
+## UI & Forensics Dashboard Preview
+
+![RugGraph Interactive Forensics Dashboard](docs/screenshots/dashboard-preview.png)
 
 ---
 
@@ -33,7 +39,7 @@ Blockchain transaction ledgers are inherently interconnected graphs of wallets, 
 
 ---
 
-## 📊 Graph Data Model
+## Graph Data Model
 
 ```mermaid
 graph TD
@@ -64,7 +70,7 @@ graph TD
 
 ---
 
-## 🔍 Core Cypher Queries Explained
+## Core Cypher Queries Explained
 
 All queries are executed using **parameterized inputs** via the official `neo4j-driver` (no raw string concatenation).
 
@@ -196,7 +202,7 @@ bun run test
 
 ---
 
-## 🏛️ Project Structure
+## Project Structure
 
 ```markdown
 rugGraph/
