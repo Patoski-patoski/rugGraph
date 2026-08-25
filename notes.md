@@ -11,7 +11,7 @@ In crypto, it works like this:
 3. Repeat across multiple wallets in a loop
 The net transfer is zero — no real economic activity happened. But on-chain, it looks like there's heavy demand and volume for the token, tricking other traders into thinking it's popular.
 
-**The Significance of Wash Trading**
+**The Significance of Wash Trading:**
 
 - Creates false market activity
 - Inflates fake volume to attract real buyers
@@ -117,7 +117,7 @@ Each hop "peels" a small amount aside while moving the bulk forward.
 - Exchange integration — final destination is usually a CEX where funds can be cashed out
 - Plausible deniability — each intermediate wallet can claim it's a normal transfer
 
-**Key characteristics of peeling chains**
+**Key characteristics of peeling chains:**
 
 - Sequential chain — unlike wash trading (circular), this is a straight line
 - Decreasing amounts — each hop carries slightly less than the previous

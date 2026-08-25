@@ -10,7 +10,7 @@
 * **Live Backend API (Render):** [https://ruggraph.onrender.com](https://ruggraph.onrender.com)
 * **Backend Health Check:** [https://ruggraph.onrender.com/health](https://ruggraph.onrender.com/health)
 * **GitHub Repository:** [https://github.com/Patoski-patoski/rugGraph](https://github.com/Patoski-patoski/rugGraph)
-* **Video Walkthrough:** *(Add your 1–2 min Loom / recording link here)*
+* **Video Walkthrough:** [https://www.loom.com/share/f846f194ba704d318442fe9dace4f477](https://www.loom.com/share/f846f194ba704d318442fe9dace4f477)
 
 ---
 
