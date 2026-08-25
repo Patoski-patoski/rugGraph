@@ -35,5 +35,4 @@ coverage/
 
 # Misc
 *.tgz
-*.pdf
-notes.md
+# *.pdf

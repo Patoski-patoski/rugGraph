@@ -22,6 +22,8 @@
 
 ## 🧠 Why a Graph Database?
 
+> 💡 **New to on-chain forensics or blockchain terminology?** Check out the [📖 Blockchain Forensics & On-Chain Crime Primer](notes.md) for plain-English explanations of Wash Trading, Sybil Bot Farms, Peeling Chains, and financial crime terminology.
+
 Blockchain transaction ledgers are inherently interconnected graphs of wallets, tokens, liquidity pools, and smart contracts. When performing forensic analysis, the central questions are about **topologies, cycles, and multi-hop paths of arbitrary depth**:
 
 1. **Circular Wash Trading:** Discovering whether funds cycle through $N$ intermediaries back to the origin wallet (`A → B → C → D → A`) to fake token trading volume.

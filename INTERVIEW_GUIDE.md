@@ -6,6 +6,8 @@ RugGraph is a web application that visualizes cryptocurrency transaction network
 
 **Tech stack:** React (frontend), NestJS + Bun (backend), CognoDB (graph database).
 
+> 💡 *For an extensive primer on blockchain crime terminology and definitions, see [notes.md](notes.md).*
+
 ---
 
 ## The Problem
@@ -85,7 +87,7 @@ A traditional database (like MySQL or PostgreSQL) would need complex, slow queri
 ## Key Terminology
 
 | Term | Meaning |
-|------|---------|
+| ------ | --------- |
 | **Wallet** | A blockchain address (like a bank account number) |
 | **Token** | A cryptocurrency (like $PEPE, $MOON) |
 | **Edge/Relationship** | A transaction between two wallets |
